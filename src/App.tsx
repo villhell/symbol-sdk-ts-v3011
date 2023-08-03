@@ -43,7 +43,7 @@ const sendClick = async () => {
       transactionId: hash,
     });
     console.log({ status: !!statusRes });
-  }, [3000]);
+  }, 3000);
 };
 function App() {
   const [count, setCount] = useState(0);
